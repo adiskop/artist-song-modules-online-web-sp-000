@@ -1,8 +1,8 @@
 require 'pry'
 
 class Song
-  extend Memorable::reset_all
-  extend Memorable::count
+  extend Memorable::ClassMethods
+
 
   attr_accessor :name
   attr_reader :artist
